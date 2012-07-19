@@ -3,7 +3,7 @@
 16/02/2012 Viewbook took over this gem from Tobias Crawley, this is now the official repo for this gem. 
 
 zendesk_remote_auth is a simple gem providing help with Zendesk's SSO
-functionality (see http://www.zendesk.com/api/remote_authentication).
+functionality (see http://www.zendesk.com/support/api/remote-authentication).
 
 == Installation and Setup
 
