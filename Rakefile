@@ -7,9 +7,9 @@ begin
     gem.name = "zendesk_remote_auth"
     gem.summary = %Q{Helper for Zendesk SSO/remote authentication}
     gem.description = %Q{See the README.}
-    gem.email = "tcrawley@gmail.com"
-    gem.homepage = "http://github.com/tobias/zendesk_remote_auth"
-    gem.authors = ["Tobias Crawley"]
+    gem.email = "info@viewbook.com"
+    gem.homepage = "https://github.com/viewbook/zendesk_remote_auth"
+    gem.authors = ["Viewbook"]
     gem.add_dependency "activesupport", ">= 3.0.0"
     gem.add_development_dependency "rspec", ">= 2.6.0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
