@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{zendesk_remote_auth}
-  s.version = "1.1.0"
+  s.name = "zendesk_remote_auth"
+  s.version = "1.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = [%q{Tobias Crawley}]
-  s.date = %q{2011-12-14}
-  s.description = %q{See the README.}
-  s.email = %q{tcrawley@gmail.com}
+  s.authors = ["Viewbook"]
+  s.date = "2012-11-16"
+  s.description = "See the README."
+  s.email = "info@viewbook.com"
   s.extra_rdoc_files = [
     "LICENSE",
     "README.rdoc"
@@ -23,12 +23,14 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/zendesk_remote_auth.rb",
+    "spec/spec_helper.rb",
+    "spec/zendesk_remote_auth_spec.rb",
     "zendesk_remote_auth.gemspec"
   ]
-  s.homepage = %q{http://github.com/tobias/zendesk_remote_auth}
-  s.require_paths = [%q{lib}]
-  s.rubygems_version = %q{1.8.4}
-  s.summary = %q{Helper for Zendesk SSO/remote authentication}
+  s.homepage = "https://github.com/viewbook/zendesk_remote_auth"
+  s.require_paths = ["lib"]
+  s.rubygems_version = "1.8.23"
+  s.summary = "Helper for Zendesk SSO/remote authentication"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
